@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-20T20:34:28 ART" name="TestSuite" finished-at="2022-08-20T20:34:52 ART" duration-ms="23865">
+    <groups>
+    </groups>
+    <test started-at="2022-08-20T20:34:28 ART" name="ANDROID" finished-at="2022-08-20T20:34:52 ART" duration-ms="23865">
+      <class name="com.android.app.Calculator">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.android.app.Calculator@5df417a7]" started-at="2022-08-20T20:34:28 ART" name="beforeTest" finished-at="2022-08-20T20:34:42 ART" duration-ms="14089" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:4723/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="f()[pri:0, instance:com.android.app.Calculator@5df417a7]" started-at="2022-08-20T20:34:42 ART" name="f" finished-at="2022-08-20T20:34:52 ART" duration-ms="9654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.android.app.Calculator@5df417a7]" started-at="2022-08-20T20:34:52 ART" name="afterTest" finished-at="2022-08-20T20:34:52 ART" duration-ms="64" status="FAIL">
+          <exception class="org.openqa.selenium.UnsupportedCommandException">
+            <message>
+              <![CDATA[The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'elzevir-N56VB', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-124-generic', java.version: '17.0.4'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [a1e5fecc-3afc-4246-9ce1-2a9f2da4ef8d, close {}]
+Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: com.sec.android.app.popupca..., appium:appPackage: com.sec.android.app.popupca..., appium:automationName: UiAutomator2, appium:chromedriverUseSystemExecutable: true, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 60000, appActivity: com.sec.android.app.popupca..., appPackage: com.sec.android.app.popupca..., automationName: UiAutomator2, chromedriverUseSystemExecutable: true, deviceName: SM-J71MN, newCommandTimeout: 60, platformName: android, platformVersion: 8.1.0, udid: 52032936c0e08321}, appium:deviceApiLevel: 27, appium:deviceManufacturer: samsung, appium:deviceModel: SM-J710MN, appium:deviceName: 52032936c0e08321, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1280, appium:deviceUDID: 52032936c0e08321, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 60, appium:pixelRatio: 2, appium:platformVersion: 8.1.0, appium:statBarHeight: 48, appium:takesScreenshot: true, appium:udid: 52032936c0e08321, appium:viewportRect: {height: 1232, left: 0, top: 48, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: a1e5fecc-3afc-4246-9ce1-2a9f2da4ef8d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnsupportedCommandException: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'elzevir-N56VB', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-124-generic', java.version: '17.0.4'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [a1e5fecc-3afc-4246-9ce1-2a9f2da4ef8d, close {}]
+Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: com.sec.android.app.popupca..., appium:appPackage: com.sec.android.app.popupca..., appium:automationName: UiAutomator2, appium:chromedriverUseSystemExecutable: true, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 60000, appActivity: com.sec.android.app.popupca..., appPackage: com.sec.android.app.popupca..., automationName: UiAutomator2, chromedriverUseSystemExecutable: true, deviceName: SM-J71MN, newCommandTimeout: 60, platformName: android, platformVersion: 8.1.0, udid: 52032936c0e08321}, appium:deviceApiLevel: 27, appium:deviceManufacturer: samsung, appium:deviceModel: SM-J710MN, appium:deviceName: 52032936c0e08321, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1280, appium:deviceUDID: 52032936c0e08321, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 60, appium:pixelRatio: 2, appium:platformVersion: 8.1.0, appium:statBarHeight: 48, appium:takesScreenshot: true, appium:udid: 52032936c0e08321, appium:viewportRect: {height: 1232, left: 0, top: 48, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: a1e5fecc-3afc-4246-9ce1-2a9f2da4ef8d
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:180)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:267)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:432)
+at driver.BrowserFactory.removeDriver(BrowserFactory.java:69)
+at com.android.app.Calculator.afterTest(Calculator.java:65)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.afterRun(TestRunner.java:877)
+at org.testng.TestRunner.run(TestRunner.java:599)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.android.app.Calculator -->
+    </test> <!-- ANDROID -->
+  </suite> <!-- TestSuite -->
+</testng-results>
