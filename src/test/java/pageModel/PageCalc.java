@@ -75,15 +75,19 @@ public class PageCalc extends pageModel.Base{
 		switch(numero) {
 		case 1:
 			clickElemento(suma);
+			System.out.println("Suma (+)");
 			break;
 		case 2:
 			clickElemento(resta);
+			System.out.println("Resta (-)");
 			break;
 		case 3:
 			clickElemento(multiplicacion);
+			System.out.println("Suma (*)");
 			break;
 		case 4:
 			clickElemento(division);
+			System.out.println("Suma (/)");
 			break;
 		}
 	}
