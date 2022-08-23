@@ -74,7 +74,7 @@ public class Calculator {
 	@AfterTest
 	public void afterTest() {
 		bf.removeDriver();
-	}
+		}
 
 	public int numeroRandom(int min, int max) {
 		return (int) ((Math.random() * (max - min)) + min);

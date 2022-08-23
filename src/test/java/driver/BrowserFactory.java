@@ -66,8 +66,8 @@ public class BrowserFactory {
 	}
 
 	public void removeDriver() {
-		driver.close();
-		driver.quit();
+		//driver.close();
+		//driver.quit();
 
 	}
 
